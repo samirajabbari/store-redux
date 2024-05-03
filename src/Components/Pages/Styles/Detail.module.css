@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 1rem;
+  align-items: center;
+  /* justify-content: center; */
+}
+.container img {
+  margin: 2rem;
+  padding: 1rem;
+  width: 12rem;
+  height: 18rem;
+  border: 1px dashed #ff5f00;
+  border-radius: 1rem;
+}
+.container p {
+  margin-right: 2rem;
+  text-align: justify;
+}
+.container button {
+  outline: none;
+  border: none;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  background-color: #ff5f00;
+  cursor: pointer;
+  color: white;
+}
